@@ -13,6 +13,12 @@ from .chronos.predictor import ChronosPredictor
 from .core.memory import AncestralMemory
 from .core.pricing import PredatorPricing
 from .core.stealth import StealthLayer
+from .elite_toolkit import (
+    HyperRecursionEngine,
+    MirrorProtocol,
+    CaveGemini,
+    BioWealthFunnel
+)
 
 __all__ = [
     "Apex",
@@ -24,5 +30,9 @@ __all__ = [
     "ChronosPredictor",
     "AncestralMemory",
     "PredatorPricing",
-    "StealthLayer"
+    "StealthLayer",
+    "HyperRecursionEngine",
+    "MirrorProtocol",
+    "CaveGemini",
+    "BioWealthFunnel"
 ]

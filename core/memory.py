@@ -17,7 +17,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - [SOVEREIGN-SDK] - 
 logger = logging.getLogger("SOVEREIGN-SDK-MEMORY")
 
 class AncestralMemory:
-    def __init__(self, db_path: str = "legacy/vector_db", provider: Optional[str] = None):
+    def __init__(self, db_path: str = "data/vector_db", provider: Optional[str] = None):
         self.db_path = db_path
         self.api_key = os.getenv("GEMINI_API_KEY")
         self.ollama_url = os.getenv("OLLAMA_URL", "http://localhost:11434")
